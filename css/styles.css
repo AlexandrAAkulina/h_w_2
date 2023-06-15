@@ -1,0 +1,190 @@
+:root {
+    --primary-brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --navy-blue-color: #2E2F42;
+    --text-color: #434455;
+    --light-color: #F4F4FD;
+    --white-background-color: #FFFFFF;
+    --font-family-text: 'Roboto', sans-serif;
+    --second-font-family-text: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: var(--font-family-text);
+    color: var(--text-color);
+    background-color: var(--white-background-color);
+}
+
+.list, ul {
+    list-style: none;
+}
+
+.link, a {
+    text-decoration: none;
+}
+.header-logo {
+    text-transform: uppercase;
+    font-family: var(--second-font-family-text);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--primary-brand-color);
+}
+.header-logo-studio {
+    color: var(--navy-blue-color);
+}
+.footer-logo-studio {
+    color: var(--light-color);
+}
+.header-link {
+    font-family: var(--font-family-text);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+    text-decoration: none;
+}
+.header-link:focus, .header-link:hover  {
+    color: var(--pressed-state-color);
+}
+.header-address {
+    font-style: normal;
+}
+.header-addr-link {
+    font-family: var(--font-family-text);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+
+}
+.header-addr-link:focus, .header-addr-link:hover {
+    color: var(--pressed-state-color);
+}
+.hero {
+    background-color: var(--navy-blue-color);
+}
+
+.hero-title {
+    font-family: var(--font-family-text);
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white-background-color);
+}
+.hero-btn {
+    color: var(--white-background-color);
+    background-color: var(--primary-brand-color);
+    font-family: var(--font-family-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.hero-btn:focus, .hero-btn:hover {
+    background-color: var(--pressed-state-color);
+}
+.prerogative-name {
+    font-family: var(--font-family-text);
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: var(--navy-blue-color);
+
+}
+.prerogative-text {
+    font-family: var(--font-family-text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.specialization-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+
+}
+.team {
+    background-color: var(--light-color);
+}
+
+.team-tatle {
+    font-family: var(--font-family-text);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+    text-align: center;
+    text-transform: capitalize;
+}
+.team-item {
+    background-color: var(--white-background-color);
+}
+.team-name {
+    font-family: var(--font-family-text);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+}
+.team-text {
+    font-family: var(--font-family-text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: var(--text-color);
+}
+.footer {
+    background-color: var(--navy-blue-color);
+}
+.footer-text {
+    font-family: var(--font-family-text);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-color);
+}
+.filters-btn {
+    font-family: var(--font-family-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand-color);
+    background-color: var(--light-color);
+    cursor: pointer;
+}
+.filters-btn:focus,
+.filters-btn:hover {
+    color: var(--white-background-color);
+    background-color: var(--pressed-state-color);
+}
+.img-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+}
+.img-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+
+
